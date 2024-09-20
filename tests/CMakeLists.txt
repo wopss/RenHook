@@ -1,6 +1,6 @@
 set(
   RENHOOK_TESTS_SRC_FILES
-    exceptions.cpp
+    error_code.cpp
 )
 
 source_group(

@@ -1,3 +1,3 @@
 #pragma once
 
-#include <renhook/exceptions.hpp>
+#include <renhook/error_code.hpp>

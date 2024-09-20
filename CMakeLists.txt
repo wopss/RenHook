@@ -82,14 +82,16 @@ set(
   RENHOOK_HEADER_FILES
     include/renhook/renhook.hpp
 
-    include/renhook/config.hpp
-    include/renhook/exceptions.hpp
+    include/renhook/errc.hpp
+    include/renhook/error_code.hpp
+
     include/renhook/detail/core.hpp
+    include/renhook/detail/error_code.hpp
 )
 
 set(
   RENHOOK_SRC_FILES
-    src/exceptions.cpp
+    src/error_code.cpp
 )
 
 get_property(RENHOOK_USE_FOLDERS GLOBAL PROPERTY USE_FOLDERS)
